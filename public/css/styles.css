@@ -1,0 +1,11 @@
+body {
+  background-color: #23282f; /* Arka plan rengini istediğiniz renkle değiştirin */
+}
+
+p {
+  border: 2px solid #000; /* Sınır kalınlığı ve rengi ayarlayabilirsiniz */
+  border-image-source: linear-gradient(to right, #6cb288, #0092d6, #1c4f82);
+  border-image-slice: 1; /* Sınırı tamamen kaplamak için */
+  border-radius: 30px; /* Köşeleri yuvarlama (border radius) */
+  padding: 30px; /* İçeriğin sınırdan uzaklığını ayarlayabilirsiniz */
+}
