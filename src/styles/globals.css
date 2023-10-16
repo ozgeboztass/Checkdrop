@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  @apply overflow-x-clip w-screen;
+}
+
+.section-1 {
+  background-color: #fff;
+  opacity: 0.8;
+  background-image: radial-gradient(#d2d2d2 0.8px, #fff 0.8px);
+  background-size: 16px 16px;
+}

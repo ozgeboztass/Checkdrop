@@ -1,16 +1,27 @@
 {
-  "name": "checkdrop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "nextapp",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "viem": "^1.16.3"
+  },
   "devDependencies": {
-    "daisyui": "^3.9.2",
-    "tailwindcss": "^3.3.3"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5",
+    "daisyui": "^3.9.2"
   }
 }
